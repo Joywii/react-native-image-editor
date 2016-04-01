@@ -5,9 +5,6 @@ A React Native module that allows you to use native UI to select a photo/video f
 
 <img title="iOS" src="https://github.com/marcshilling/react-native-image-picker/blob/master/images/ios-image.png" width="50%">
 
-### Android
-
-<img title="Android" src="https://github.com/marcshilling/react-native-image-picker/blob/master/images/android-image.png" width="50%">
 
 ## Install
 
@@ -18,63 +15,6 @@ A React Native module that allows you to use native UI to select a photo/video f
 4. Add `RNImagePicker.a` to `Build Phases -> Link Binary With Libraries`
 5. Compile and have fun
 
-### Android
-1. `npm install react-native-image-picker@latest --save`
-
-```gradle
-// file: android/settings.gradle
-...
-
-include ':react-native-image-picker'
-project(':react-native-image-picker').projectDir = new File(settingsDir, '../node_modules/react-native-image-picker/android')
-```
-```gradle
-// file: android/app/build.gradle
-...
-
-dependencies {
-    ...
-    compile project(':react-native-image-picker')
-}
-```
-```xml
-<!-- file: android/src/main/AndroidManifest.xml -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.myApp">
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- add following permissions -->
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-feature android:name="android.hardware.camera" android:required="true"/>
-    <uses-feature android:name="android.hardware.camera.autofocus" />
-    <!-- -->
-    ...
-```
-```java
-// file: MainActivity.java
-...
-
-import com.imagepicker.ImagePickerPackage; // import package
-
-public class MainActivity extends ReactActivity {
-
-   /**
-   * A list of packages used by the app. If the app uses additional views
-   * or modules besides the default ones, add more packages here.
-   */
-    @Override
-    protected List<ReactPackage> getPackages() {
-        return Arrays.<ReactPackage>asList(
-            new MainReactPackage(),
-            new ImagePickerPackage() // Add package
-        );
-    }
-...
-}
-
-```
 ## Usage
 1. In your React Native javascript code, bring in the native module:
 
@@ -185,7 +125,7 @@ takePhotoButtonTitle | OK | OK
 chooseFromLibraryButtonTitle | OK | OK
 customButtons | OK | OK
 cameraType | OK | -
-mediaType | OK | OK
+mediaType | - | -
 videoQuality | 'low', 'medium', or 'high' | 'low' or 'high'
 durationLimit | - | OK
 angle | - | OK
@@ -194,6 +134,6 @@ aspectY | - | OK
 maxWidth | OK | OK
 maxHeight | OK | OK
 quality | OK | OK
-allowsEditing | OK | OK
+allowsEditing | - | -
 noData | OK | OK
-storageOptions | OK | OK
+storageOptions | - | -
