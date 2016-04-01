@@ -1,0 +1,46 @@
+{
+  "name": "react-native-image-editor”,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joywii/react-native-image-editor.git"
+  },
+  "version": “0.0.1”,
+  "description": "A React Native module that allows you to use native UI to select and edit image from the device library or directly from the camera",
+  "author": {
+    "name": “Joywii”,
+    "url": "http://joywii.github.io/"
+  },
+  "contributors": [
+  ],
+  "nativePackage": true,
+  "keywords": [
+    "react-native",
+    "react-native-image-editor”,
+    "react",
+    "native",
+    "image",
+    “editor”
+  ],
+  "devDependencies": {
+    "react-native": "^0.21.0"
+  },
+  "gitHead": "7508cb62ef2d2c0d46c1958465543e0a9c59753b",
+  "bugs": {
+    "url": "https://github.com/Joywii/react-native-image-editor/issues"
+  },
+  "homepage": "https://github.com/marcshilling/react-native-image-picker#readme",
+  "_id": "react-native-image-picker@0.0.1”,
+  "scripts": {},
+  "_shasum": "0e8f404e206da1f9d7b263ea093c4770ebe4559d",
+  "_from": "react-native-image-editor@latest",
+  "_npmVersion": "3.5.2",
+  "_nodeVersion": "5.2.0",
+  "_npmUser": {
+    "name": “joywii”,
+    "email": “kingzwt@gmail.com"
+  },
+  "maintainers": [
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
