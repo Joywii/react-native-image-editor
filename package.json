@@ -24,14 +24,14 @@
   "devDependencies": {
     "react-native": "^0.21.0"
   },
-  "gitHead": "7508cb62ef2d2c0d46c1958465543e0a9c59753b",
+  "gitHead": "639a74e171f76a17befef67309c01b0de5d30f90",
   "bugs": {
     "url": "https://github.com/Joywii/react-native-image-editor/issues"
   },
   "homepage": "https://github.com/marcshilling/react-native-image-picker#readme",
   "_id": "react-native-image-picker@0.0.1”,
   "scripts": {},
-  "_shasum": "0e8f404e206da1f9d7b263ea093c4770ebe4559d",
+  "_shasum": "639a74e171f76a17befef67309c01b0de5d30f90",
   "_from": "react-native-image-editor@latest",
   "_npmVersion": "3.5.2",
   "_nodeVersion": "5.2.0",
